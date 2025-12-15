@@ -8,20 +8,19 @@ A aplicação utiliza Python (Flask) no backend, integrando-se a um banco de dad
 
 ## 🔍 Funcionalidades
 
--Dashboard Operacional:
-  -KPI em Tempo Real: Exibe o total de ocorrências registradas no banco.
-  -Gráfico de Natureza: Distribuição percentual dos chamados (ex: Incêndio, Salvamento, APH).
-  -Top 5 Bairros: Gráfico de barras indicando as áreas com maior demanda (para alocação estratégica de viaturas).
-  -Situação de Vítimas: Comparativo entre ocorrências com e sem vítimas.
+### Dashboard Operacional
+- **KPI em Tempo Real:** Exibe o total de ocorrências registradas no banco.
+- **Gráfico de Natureza:** Distribuição percentual dos chamados (ex: Incêndio, Salvamento, APH).
+- **Top 5 Bairros:** Gráfico de barras indicando as áreas com maior demanda (para alocação estratégica de viaturas).
+- **Situação de Vítimas:** Comparativo entre ocorrências com e sem vítimas.
 
--Módulo de Inteligência Artificial:
-  -Utiliza um modelo Random Forest Classifier (Scikit-learn).
-  -Simulação Preditiva: O usuário insere o Gênero, Idade e Localização (Bairro).
-  -Resultado: O sistema retorna a Classificação provável (Tipo: Subtipo) e o nível de confiança (probabilidade) da previsão.
+### Módulo de Inteligência Artificial
+- **Modelo:** Utiliza um modelo Random Forest Classifier (Scikit-learn).
+- **Simulação Preditiva:** O usuário insere o Gênero, Idade e Localização (Bairro).
+- **Resultado:** O sistema retorna a Classificação provável (Tipo: Subtipo) e o nível de confiança (probabilidade) da previsão.
 
--Integração de Dados:
-  -O sistema lê automaticamente os bairros e tipos de ocorrência cadastrados no banco PostgreSQL para manter os formulários sempre atualizados.
-
+### Integração de Dados
+- **Sincronização:** O sistema lê automaticamente os bairros e tipos de ocorrência cadastrados no banco PostgreSQL para manter os formulários sempre atualizados.
 ---
 
 ## 🛠 Tecnologias utilizadas
